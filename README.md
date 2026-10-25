@@ -18,13 +18,20 @@
 
 ## 📌 Overview
 
-Ovolatile — OwlSec security tool
+
+OVolatile is a volatile-memory and live-forensics tool that captures and inspects transient system state such as running processes, network connections, loaded modules and open handles. It snapshots live host artifacts for incident response and preserves them for analysis. It runs as a desktop application for authorized forensic work.
 
 ---
 
 ## ✨ Features
 
-- Ovolatile — OwlSec security tool
+
+- Capture of volatile artifacts: processes, network connections, loaded modules and open files
+- Point-in-time live-state snapshots for incident response
+- Process and connection detail inspection
+- Preservation/export of captured artifacts for later analysis
+- Uses psutil for live host data where available
+- Desktop UI in the OWLSec theme with an offline --self-test
 
 ---
 
@@ -37,8 +44,11 @@ Ovolatile — OwlSec security tool
 
 ## 🚀 Usage
 
+
 ```bash
-./Ovolatile
+./OVolatile
+./OVolatile --self-test
+./OVolatile --help
 ```
 
 ---
