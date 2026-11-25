@@ -46,9 +46,9 @@ OVolatile is a volatile-memory and live-forensics tool that captures and inspect
 
 
 ```bash
-./OVolatile
-./OVolatile --self-test
-./OVolatile --help
+./Ovolatile
+./Ovolatile --self-test
+./Ovolatile --help
 ```
 
 ---
